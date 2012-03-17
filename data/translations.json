@@ -1,0 +1,22 @@
+var countries = [
+    {
+	"language": "english",
+    title: "Philip Michael Ondaatje",
+    birthDate: "Born: September 12, 1943",
+    postContent: "A Sri Lankan-born Canadian novelist. Ontaatjes are a prominent family of multi ethnic origins. He is perhaps best known for his Booker Prize-winning novel, The English Patient, which was adapted into an Academy-Award-winning film.",
+    booksOfNote: "Books I recommend:",
+    "bookOne": "<a class=\"bookOne\" href=\"http://www.amazon.ca/The-Cats-Table-Michael-Ondaatje/dp/0771068646/ref=sr_1_1?s=books&ie=UTF8&qid=1332007329&sr=1-1\">The Cat's Table</a>",
+    "bookTwo": "<a class=\"bookTwo\" href=\"http://www.amazon.ca/In-Skin-Lion-Michael-Ondaatje/dp/0394281829/ref=sr_1_2?s=books&ie=UTF8&qid=1332007329&sr=1-2\">In the Skin of a Lion</a>",
+    wikipediaLink: "Learn more on <a href=\"http://en.wikipedia.org/wiki/Michael_Ondaatje\">Wikipedia</a>."
+    },        
+    {
+	"language": "francais",
+	"title": "Philip Michael Ondaatje",
+	"birthDate": "Ne: 12 Septembre 1943",
+	"postContent": "Est un romancier et po&#232;te canado-srilankais. Il est surtout connu pour son livre L'Homme flamb&#233; . C'est sur ce roman qu'est bas&#233; le sc&#233;nario du film &#224; succ&#232;s Le Patient anglais.",
+	"booksOfNote": "Livres que je recommande:",
+    "bookOne": "<a class=\"bookOne\" href=\"http://www.amazon.ca/gp/switch-language/product/0771068646/ref=topnav_switchLang?ie=UTF8&s=books&qid=1332007329&sr=1-1&language=fr_CA\">The Cat's Table</a>",
+    "bookTwo": "<a class=\"bookTwo\" href=\"http://www.amazon.ca/gp/switch-language/product/0394281829/ref=topnav_switchLang?ie=UTF8&s=books&qid=1332007329&sr=1-2&language=fr_CA\">In the Skin of a Lion</a>",
+	"wikipediaLink": "En savoir plus sur <a href=\"http://en.wikipedia.org/wiki/Michael_Ondaatje\">Wikipedia</a>."
+    }
+];

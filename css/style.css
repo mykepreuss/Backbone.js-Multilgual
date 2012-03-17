@@ -1,0 +1,136 @@
+/* HTML5 Boilerplate  */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 18px; line-height: 24px; }
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+b, strong { font-weight: bold; }
+
+ul, ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+/*  
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+* { margin:0; padding:0; }
+
+html, body { height: 100%; }
+
+#wrap { 
+	width: 990px;
+	min-height: 100%;
+	margin: 24px auto 0;
+}
+
+#wrap h1 { 
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 14px 0 14px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav ul li, nav ul li a {
+	display: inline;
+}
+
+nav ul li a {
+	padding: 14px;
+}
+
+#main {
+	width: 600px;
+	margin: 24px auto 0;	
+	overflow:auto;
+	padding-bottom: 24px; /* must be same height as the footer */
+}
+
+#main p {
+	margin-bottom: 18px;
+}
+
+p.date {
+	font-size: 14px;
+	line-height: 18px;
+	margin: 8px 0 14px;
+}
+
+#main ul li {
+	float: left;
+	padding-bottom: 48px;
+}
+
+#main ul li a {
+	float: left;
+	text-indent: -99999px;
+}
+
+#main ul li a.bookOne {
+	width: 300px;
+	height: 300px;
+	background: url(http://ecx.images-amazon.com/images/I/51gdJZKoADL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU15_.jpg);
+}
+
+#main ul li a.bookTwo {
+	width: 300px;
+	height: 300px;
+	background: url(http://ecx.images-amazon.com/images/I/41vm0qMK0oL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU15_.jpg);
+}
+
+
+#footer {
+	position: relative;
+	width: 600px;
+	height: 24px;
+	padding-top: 48px;
+	margin: -24px auto 0; /* negative value of footer height */
+	clear:both;
+} 
+
+#footer p {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } 
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
